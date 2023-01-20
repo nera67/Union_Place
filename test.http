@@ -1,0 +1,34 @@
+POST http://localhost:3000/api/feedback
+Content-Type: application/json
+
+{
+	"fio": "Ivanov Ivan Ivanovich",
+	"phone": "+8(927)4377574",
+	"email": "ivan@mail.ru",
+	"info": "aaaafffffcccchhh"
+}
+
+###
+
+POST http://localhost:3000/api/admin
+Content-Type: application/json
+
+{
+	"name": "Admin",
+	"password": "unionplace"
+}
+
+###
+
+POST http://localhost:3000/api/login
+Content-Type: application/json
+
+{
+	"name": "Admin",
+	"password": "unionplace"
+}
+
+###
+
+GET http://localhost:3000/api/feedback 
+Authorization: 
