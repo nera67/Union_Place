@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="notification.css">
+	<title>Union Place</title>
+</head>
+
+<body>
+	<header class="header">
+		<div class="container">
+			<nav class="nav">
+				<h1 class="logo">
+					<a href="#">Union Place</a>
+				</h1>
+				<ul class="menu-list">
+					<li class="menu-item">
+						<a href="#" class="menu-link">Главная</a>
+					</li>
+					<li class="menu-item">
+						<a href="#about-project" class="menu-link">О проекте</a>
+					</li>
+					<li class="menu-item">
+						<a href="#about-us" class="menu-link">О нас</a>
+					</li>
+					<li class="menu-item">
+						<a href="#feedback" class="menu-link">Связаться с нами</a>
+					</li>
+				</ul>
+			</nav>
+			<div class="header__inner">
+				<h2 class="header__title">
+					Единая платформа для общения через множество сетей
+				</h2>
+				<a href="#about-project" class="btn header-btn">
+					<span>Узнать больше</span>
+				</a>
+			</div>
+		</div>
+	</header>
+	<main class="main">
+		<section class="about-project" id="about-project">
+			<div class="container">
+				<div class="about-project__inner">
+					<div class="about-project__description">
+						<div class="about-project__description-info">
+							<h3 class="title">
+								Описание проекта
+							</h3>
+							<h5 class="text">
+								Проект создается для объединения большинства существующих мессенджеров в единую децентрализованную
+								платформу для
+								общения
+								и обмена контентом в реальном времени
+							</h5>
+						</div>
+						<img src="/img/socialn_seti.jpg" alt="">
+					</div>
+					<div class="about-project__goal">
+						<img src="/img/soc-networks.png" alt="">
+						<div class="about-project__goal-info">
+							<h3 class="title">
+								Цель нашего проекта
+							</h3>
+							<h5 class="text">
+								Долгосрочная задача проекта заключается в том, чтобы стать основной системой для отправки сообщений и
+								синхронизации
+								данных по всей сети, позволяя людям легко общаться друг с другом, давая пользователям контроль над
+								своими данными и
+								выбор между сервисами и вендорами, которые они захотят использовать
+							</h5>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="about-us" id="about-us">
+			<div class="container">
+				<div class="about-us__inner">
+					<div class="about-us-info">
+						<h3 class="title">
+							Наша команда
+						</h3>
+						<h5 class="text">
+							Наш сервис позволяет общаться и обмениваться информационными ресурсами между другими пользователями социальных сетей,
+							используя только наше приложение.
+							В отличии от большинства существующих проектов такой отрасли наше приложение имеет простой, но многофункциональный
+							интерфейс, освоение которого не займет у пользователя много времени.
+						</h5>
+					</div>
+					<div class="about-us__cards">
+						<div class="about-us__card">
+							<img src="/img/ser.jpg" alt="Avatar" width="100%">
+							<div class="card-info">
+								<p class="name">Сергей</p> 
+								<a target="_blank" href="https://vk.com/g0tka777" class="card__link">Ссылка ВК</a>
+							</div>
+						</div>
+						<div class="about-us__card">
+							<img src="/img/el.jpg" alt="Avatar" width="100%">
+							<div class="card-info">
+								<p class="name">Эльдар</p>
+								<a target="_blank" href="https://vk.com/imagulov_e" class="card__link">Ссылка ВК</a>
+							</div>
+						</div>
+						<div class="about-us__card">
+							<img src="/img/al.jpg" alt="Avatar" width="100%">
+							<div class="card-info">
+								<p class="name">Александр</p>
+								<a target="_blank" href="https://vk.com/no_m0r" class="card__link">Ссылка ВК</a>
+							</div>
+						</div>
+						<div class="about-us__card">
+							<img src="/img/nik.jpg" alt="Avatar" width="100%">
+							<div class="card-info">
+								<p class="name">Никита</p>
+								<a target="_blank" href="https://vk.com/id619834977" class="card__link">Ссылка ВК</a>
+							</div>
+						</div>
+						<div class="about-us__card">
+							<img src="/img/rom.jpg" alt="Avatar" width="100%">
+							<div class="card-info">
+								<p class="name">Роман</p>
+								<a target="_blank" href="https://vk.com/rmanno" class="card__link">Ссылка ВК</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="feedback" id="feedback">
+			<div class="container">
+				<div class="feedback__inner">
+					<h3 class="feedback__title">
+						Форма обратной связи
+					</h3>
+					<div class="feedback__container">
+						<form id="feedback__form" action="" class="form feedback__form">
+							<label for="fio">ФИО</label><input name="fio" type="text">
+							<label for="phone">Контактный телефон</label><input name="phone" type="tel">
+							<label for="email">Электронный адрес</label><input name="email" type="email">
+							<label for="info">Дополнительная информация</label><textarea id="info" name="info" rows="8"></textarea>
+						</form>	
+						<button id="feedback-btn" class="btn feedback-btn">Отправить</button>
+					</div>
+				</div>
+			</div>
+		</section>
+	</main>
+</body>
+<script src="./script.js"></script>
+<script src="./notification.js"></script>
+</html>
